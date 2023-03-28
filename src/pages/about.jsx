@@ -10,7 +10,6 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/portrait.jpg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -41,7 +40,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Spencer Sharp</title>
+        <title>About - Ayelet Hillel</title>
         <meta
           name="description"
           content="I’m Spencer Sharp. I live in New York City, where I design the future."
@@ -52,7 +51,7 @@ export default function About() {
           <div className="lg:pl-20">
             <div className="max-w-xs px-2.5 lg:max-w-none">
               <Image
-                src={portraitImage}
+                src="https://media.licdn.com/dms/image/C4D03AQF3CsrPfwGHcw/profile-displayphoto-shrink_400_400/0/1581221591162?e=1685577600&v=beta&t=84yuGP2Iq_jZft9j3wcI3cMu54wmfW4p8KeNP8H4QqI"
                 alt=""
                 sizes="(min-width: 1024px) 32rem, 20rem"
                 className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
@@ -61,7 +60,7 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Spencer Sharp. I live in New York City, where I design the
+              I’m Ayelet Hillel. I live in New York City, where I design the
               future.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
