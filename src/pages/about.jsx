@@ -10,6 +10,7 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
+import myPortraitImage from '@/images/myPortrait.jpg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -51,7 +52,7 @@ export default function About() {
           <div className="lg:pl-20">
             <div className="max-w-xs px-2.5 lg:max-w-none">
               <Image
-                src="https://media.licdn.com/dms/image/C4D03AQF3CsrPfwGHcw/profile-displayphoto-shrink_400_400/0/1581221591162?e=1685577600&v=beta&t=84yuGP2Iq_jZft9j3wcI3cMu54wmfW4p8KeNP8H4QqI"
+                src={myPortraitImage}
                 alt=""
                 sizes="(min-width: 1024px) 32rem, 20rem"
                 className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
